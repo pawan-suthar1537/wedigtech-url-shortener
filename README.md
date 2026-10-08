@@ -9,7 +9,6 @@ A lightweight full stack URL shortener built with Node.js, Express, and MongoDB.
 - **Backend:** Node.js, Express
 - **Database:** MongoDB Atlas (Mongoose)
 - **Frontend:** Vanilla HTML5, CSS3, JavaScript (Single-Page UI)
-- **Testing:** Node.js native test runner (`node:test`) + `supertest`
 
 **Why MongoDB:** Provides document storage with unique indexing on short codes and native atomic counter updates (`$inc`), ensuring data survives server restarts and handles concurrent visits safely.
 
